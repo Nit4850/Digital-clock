@@ -12,6 +12,11 @@ body{
     align-items: center;
     justify-content: center;
     font-family: 'Open Sans',sans-serif;
+    background-image: url('world-map.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 
 .clock{
@@ -23,14 +28,14 @@ body{
 }
 
 .clock div{
-    background: linear-gradient(to right, #ff9572,#f2709c);
+    background: linear-gradient(to right, #ffffff,#000000);
     height: 100%;
     width: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 60px;
-    color: #202020;
+    color: #00FFFF;
     border-radius: 5px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     letter-spacing: 3px;
