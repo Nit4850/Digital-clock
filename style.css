@@ -8,7 +8,6 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(to right, #ff9572,#f2709c);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +23,7 @@ body{
 }
 
 .clock div{
-    background-color: #fff;
+    background: linear-gradient(to right, #ff9572,#f2709c);
     height: 100%;
     width: 150px;
     display: flex;
@@ -40,5 +39,5 @@ body{
 .clock span{
     font-weight: bolder;
     font-size: 60px;
-    color: #fff;
+    color: #1b1919;
 }
